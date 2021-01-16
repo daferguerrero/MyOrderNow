@@ -106,29 +106,30 @@ header
         }
     }
 
-    .profile-options-moda
+}
+
+.profile-options-moda
+{
+    .profile-options-list
     {
-        .profile-options-list
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li
         {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-
-            li
+            a
             {
-                a
-                {
-                    display: block;
-                    padding: 10px 0;
-                    color: $black2;
+                display: block;
+                padding: 10px 0;
+                color: $black2;
 
-                    i
-                    {
-                        display: inline-block;
-                        width: 18px;
-                        text-align: center;
-                        margin-right: 5px;
-                    }
+                i
+                {
+                    display: inline-block;
+                    width: 18px;
+                    text-align: center;
+                    margin-right: 5px;
                 }
             }
         }
